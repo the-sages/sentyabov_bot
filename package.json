@@ -2,14 +2,19 @@
   "name": "sentyabov_bot",
   "version": "0.0.1",
   "description": "Best phrases",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "6"
+  },
   "scripts": {
+    "start": "node ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "skad0 <github.com/skad0>",
   "license": "MPL-2.0",
   "dependencies": {
-    "bot-brother": "^2.1.5"
+    "bot-brother": "^2.1.5",
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
