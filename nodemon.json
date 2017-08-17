@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/*"
+    ],
+    "verbose": true,
+    "execMap": {
+        "js": "node"
+    },
+    "watch": [
+        "index.js",
+        "data/phrases.js"
+    ],
+    "env": {
+        "DEBUG": "*"
+    },
+    "ext": "js"
+}
