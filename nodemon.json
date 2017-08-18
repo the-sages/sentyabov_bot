@@ -10,7 +10,9 @@
     },
     "watch": [
         "index.js",
-        "data/phrases.js"
+        "data/phrases.js",
+        "lib/index.js",
+        "server.js"
     ],
     "env": {
         "DEBUG": "*"
