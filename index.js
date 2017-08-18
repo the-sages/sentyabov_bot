@@ -1,1 +1,2 @@
-require('./server')(require('./lib/index'));
+const bot = require('./lib/index');
+require('./server')(bot);
